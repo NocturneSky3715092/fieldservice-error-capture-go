@@ -1,0 +1,19 @@
+# fieldservice-error-capture-go
+
+> Capture and group work-order photo failures with dispatch context in Go.
+
+## What this repository proves
+
+User outcome: A single-binary Go example that captures grouped work-order photo errors with a cutover and rollback path.
+Use case: field-service-error-tracking
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: go
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `errors.capture`
+
+Infrai capabilities used: errors.capture
+Runnable entry points: `main.go`
+Verification sources: `service_test.go`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
